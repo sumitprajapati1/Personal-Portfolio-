@@ -84,10 +84,10 @@ const setupItems: Setup[] = [
         name: "nodemon",
         link: null
       },
-      {
-        name:"AWS (amazon web services)",
-        link: null
-      }
+      // {
+      //   name:"AWS (amazon web services)",
+      //   link: null
+      // }
     ],
   },
   {

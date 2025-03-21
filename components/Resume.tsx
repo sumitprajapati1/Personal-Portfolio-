@@ -69,6 +69,15 @@ const resumeContent: Content = {
   ],
   experience_list: [
     {
+      title: "React Developer",
+      institution: "Promethean Tech",
+      period: "Feb 2025 - Present",
+      description: [ 
+        "As a React Developer at Promethean Tech, focusing on building scalable and high-performance web applications using React.js, Next.js, and TypeScript. My role involves API integration, optimizing frontend performance, and enhancing user experiences. Additionally, I am deepening my expertise in JavaScript and modern frontend technologies while exploring AI-driven development tools.",
+       ],
+      image: "/promethean_logo.png",
+    },
+    {
       title: "Web Developer Intern",
       institution: "Pulpit Mobility",
       period: "Jan 2024 - Apr 2024",
@@ -80,20 +89,11 @@ const resumeContent: Content = {
       ],
       image: "/pulpit_logo.png",
     },
-    {
-      title: "Full Stack Intern",
-      institution: "Arraysoft Technologies",
-      period: "Oct 2024 - Present",
-      description: [ 
-        "Just started..."
-       ],
-      image: "/arraysoft_logo.png",
-    },
   ],
   language_list: [
     {
       name: "JAVA",
-      proficiency: "Intermediate",
+      proficiency: "Basic",
     },
     {
       name: "Python",
@@ -101,6 +101,10 @@ const resumeContent: Content = {
     },
     {
       name:"Javascript",
+      proficiency: "Intermediate",
+    },
+    {
+      name: "Typescript",
       proficiency: "Intermediate",
     }
   ],

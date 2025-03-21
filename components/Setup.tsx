@@ -34,8 +34,16 @@ const setupItems: Setup[] = [
         link: "https://github.com/sumitprajapati1/Chrome-Timer-Extension",
       },
       {
-        name: "React.js Next.js ",
+        name: "Typescript",
         link: "https://github.com/sumitprajapati1/Global-News-Built-in-React",
+      },
+      {
+        name: "React.js",
+        link: "https://github.com/sumitprajapati1/Global-News-Built-in-React",
+      },
+      {
+        name: "Next.js",
+        link: "https://github.com/sumitprajapati1/Personal-Portfolio-",
       },
     ],
   },
@@ -66,6 +74,10 @@ const setupItems: Setup[] = [
       {
         name: "GitHub",
         link: null
+      },
+      {
+        name: "Bitbucket",
+        link: null
       }
     ],
   },
@@ -83,7 +95,7 @@ const setupItems: Setup[] = [
       {
         name: "nodemon",
         link: null
-      },
+      }
       // {
       //   name:"AWS (amazon web services)",
       //   link: null
@@ -101,6 +113,11 @@ const setupItems: Setup[] = [
         name: "Github-copilot",
         link: null,
       },
+      {
+        name: "Cursor",
+        link: null,
+      },
+
     ],
   },
   {
@@ -136,7 +153,7 @@ const setupItems: Setup[] = [
     type: "Laptop",
     items: [
       {
-        name: "Latitude ES440 x-64 based PC RAM-4GB",
+        name: "Latitude ES440 x-64 based PC RAM-16GB",
         link:null
       },
       {

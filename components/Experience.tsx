@@ -22,6 +22,22 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    title: "React Developer",
+    company: "Promethean Tech",
+    period: "Feb 2025 - Present",
+    description:
+      "I am currently working as a React Developer at Promethean Tech, focusing on building scalable and high-performance web applications using React.js, Next.js, and TypeScript. My role involves API integration, optimizing frontend performance, and enhancing user experiences. Additionally, I am deepening my expertise in JavaScript and modern frontend technologies while exploring AI-driven development tools.",
+    skills: [
+      "React.js",
+      "Github",
+      "Next.js",
+      "Acertinity UI ",
+      "ShadCN UI",
+      "Tailwind CSS",
+      "Typescript",
+    ],
+  },
+  {
     title: "Web Developer Intern",
     company: "Pulpit Mobility",
     period: "Jan 2024 - Apr 2024 ",
@@ -36,21 +52,6 @@ const experiences: Experience[] = [
       "MVC",
       "Bootstrap",
       "SQL",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    company: "ArraySoft Technologies",
-    period: "Oct 2024 - present",
-    description:
-      "Just Started..",
-    skills: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Acertinity UI ",
-      "ShadCN UI"
     ],
   },
 ];

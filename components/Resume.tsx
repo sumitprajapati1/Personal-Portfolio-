@@ -69,23 +69,41 @@ const resumeContent: Content = {
   ],
   experience_list: [
     {
-      title: "React Developer",
+      title: "React & Node Developer",
       institution: "Promethean Tech",
       period: "Feb 2025 - Present",
-      description: [ 
-        "As a React Developer at Promethean Tech, focusing on building scalable and high-performance web applications using React.js, Next.js, and TypeScript. My role involves API integration, optimizing frontend performance, and enhancing user experiences. Additionally, I am deepening my expertise in JavaScript and modern frontend technologies while exploring AI-driven development tools.",
-       ],
+      description: [
+        "Developed and maintained React.js and Next.js frontends for 3+ client projects, improving performance and scalability by 30%.",
+        "Integrated RESTful APIs and worked with backend developers to implement scalable Node.js services.",
+        "Implemented JWT-based authentication flows and contributed to API debugging and optimization using browser network tools.",
+        "Gained experience with Redis caching and API performance tuning.",
+        "Collaborated closely with clients to gather requirements and deliver optimized, user-friendly interfaces using TypeScript, Git, and team workflows with Bitbucket.",
+        "Used modern JavaScript frameworks and AI tools like Cursor to speed up development time by 35% and reduce bugs.",
+        "Expanded knowledge in backend development with Node.js, working on APIs and improving overall system efficiency."
+      ],
       image: "/promethean_logo.png",
+    },
+    {
+      title: "Full Stack Developer",
+      institution: "Arraysoft technology Gandhinagar",
+      period: "July 2024 - Jan 2025",
+      description: [
+        "Developed a consulting group website using modern web technologies, enhancing online presence and client engagement.",
+        "Built and maintained RESTful APIs using Node.js and Express.js, improving server-side performance and maintainability.",
+        "Integrated MongoDB with efficient schema design and used Postman for testing and debugging APIs. Added basic role-based access control and JWT authentication for secure access control.",
+        "Architected and developed RESTful APIs using Node.js and TypeScript for scalable backend systems, improving data reliability and reducing query latency by 20%. Used Swagger for API documentation.",
+      ],
+      image: "/arraysoft_logo.png",
     },
     {
       title: "Web Developer Intern",
       institution: "Pulpit Mobility",
       period: "Jan 2024 - Apr 2024",
       description: [
-        "Diagnosed and resolved critical bugs on pulpitmobility.com, significantly improving site reliability and user engagement.",
+        "Diagnosed and resolved critical bugs on pulpitmobility.com significantly improving site reliability and user engagement.",
         "Introduced and improved UI components to enhance user interaction and create a more engaging experience.",
         "Created pulpitinfotech.com using HTML, CSS, and Javascript to effectively present the company's technological services.",
-        "Developed vishvgroup.com, a staffing platform aimed at optimizing the recruitment process with modern web solutions.",
+        "Developed vishvgroup.com, a staffing platform aimed at optimizing the recruitment process with modern web solutions."
       ],
       image: "/pulpit_logo.png",
     },

@@ -27,24 +27,39 @@ const setupItems: Setup[] = [
     items: [
       {
         name: "HTML / CSS ",
-        link: "https://diverging-bar-chart-built-in-javascript.vercel.app/",
+        link: null,
       },
       {
         name: "Javascript",
-        link: "https://github.com/sumitprajapati1/Chrome-Timer-Extension",
+        link: null,
       },
       {
         name: "Typescript",
-        link: "https://github.com/sumitprajapati1/Global-News-Built-in-React",
+        link: null,
       },
       {
         name: "React.js",
-        link: "https://github.com/sumitprajapati1/Global-News-Built-in-React",
+        link: null,
       },
       {
         name: "Next.js",
-        link: "https://github.com/sumitprajapati1/Personal-Portfolio-",
+        link: null,
       },
+      {
+        name: "Tailwind CSS",
+        link: null,
+      },
+      {
+        name: "Aceternity UI",
+        link: null,
+      },
+      {
+        name: "Shadcn UI",
+        link: null,
+      },
+
+      
+
     ],
   },
   {
@@ -61,7 +76,47 @@ const setupItems: Setup[] = [
       {
         name: "MongoDB",
         link: null
-      }
+      },
+      {
+        name: "JWT",
+        link: null
+      },
+      {
+        name: "bcrypt",
+        link: null
+      },
+      {
+        name: "Swagger",
+        link: null
+      },
+      {
+        name: "Postman",
+        link: null
+      },
+      {
+        name: "Redis",
+        link: null
+      },
+      {
+        name: "Jest",
+        link: null
+      },
+      {
+        name: "Supertest",
+        link: null
+      },
+      {
+        name: "Unit Testing",
+        link: null
+      },
+      {
+        name: "Integration Testing",
+        link: null
+      },
+      {
+        name: "API Testing",
+        link: null
+      },
     ],
   },
   {

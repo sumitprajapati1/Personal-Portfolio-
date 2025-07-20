@@ -25,7 +25,7 @@ interface Project {
   feature_cover: string;
   title: string;
   subtitle: string;
-  description: string;
+  description: string | string[];
   stack: string[];
   github: string | null;
   live: string | null;
@@ -48,6 +48,64 @@ const projects: Project[] = [
     live: null,
     github: "https://github.com/sumitprajapati1/MelodyMastersAcademy",
   },
+  {
+    feature_cover: "/fleetlink.jpg",
+    title: "FleetLink",
+    subtitle: "A logistics vehicle booking system",
+    description:[
+      "Developed a full-stack logistics platform enabling users to book transport trucks based on capacity and route (pincode-to-pincode) with a seamless UI/UX experience.",
+      "Engineered real-time vehicle availability system and implemented smart matching logic between load requirements and vehicle capacity, boosting operational efficiency by 40%.",
+      "Implemented unit and integration testing for backend APIs using Jest and Supertest, achieving over 90% test coverage for critical booking and vehicle endpoints.",
+    ],
+    stack: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Next.js",
+      "Tailwind CSS",
+      "Front-End",
+      "Jest",
+      "Supertest",
+      "Unit Testing",
+      "Integration Testing",
+      "API Testing",
+      "API Documentation",
+    ],
+    github: "https://github.com/sumitprajapati1/FleetLink",
+    live: null,
+  },
+//   Jobify – Full Stack Job Portal | React.js, Express.js, Node.js, MongoDb Github
+// • Designed and built a full featured job portal with MERN stack , supporting role based access for recruiters and job seekers.
+// • Implemented secure login and session management using JWT and bcrypt.
+// • Developed scalable APIs, optimized MongoDB queries with indexes, and documented endpoints with Swagger
+// • Implemented CRUD operationsfor managing job listings, profiles, and applications. Optimized performance and user
+// experience through responsive UI.
+{
+  feature_cover: "/jobify.png",
+  title: "Jobify",
+  subtitle: "A full stack job portal",
+  description:
+    [
+      "Designed and built a full featured job portal with MERN stack , supporting role based access for recruiters and job seekers.",
+      "Implemented secure login and session management using JWT and bcrypt.",
+      "Developed scalable APIs, optimized MongoDB queries with indexes, and documented endpoints with Swagger",
+      "Implemented CRUD operationsfor managing job listings, profiles, and applications. Optimized performance and user experience through responsive UI.",
+    ],
+    stack: [
+      "React.js",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "JWT",
+      "bcrypt",
+      "Swagger",
+      "CRUD Operations",
+      "Performance Optimization",
+      "User Experience",
+    ],
+    github: "https://github.com/sumitprajapati1/Jobify",
+    live: null,
+},
   {
     feature_cover: "/chrome-timer.png",
     title: "Chrome Timer Extension",
@@ -192,7 +250,17 @@ function ShinyCard({
             )}
           </div>
         </div>
-        <p className="text-card-foreground">{project.description}</p>
+        <p className="text-card-foreground">
+          {Array.isArray(project.description) ? (
+            <ul className="list-disc pl-5 space-y-2">
+              {project.description.map((point, idx) => (
+                <li key={idx}>{point}</li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-card-foreground">{project.description}</p>
+          )}
+        </p>
       </CardContent>
       <CardFooter className="flex gap-2 flex-wrap">
         {project.stack.map((stack, index) => (

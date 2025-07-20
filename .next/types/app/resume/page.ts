@@ -1,4 +1,4 @@
-// File: C:\Users\LENOVO\Desktop\portfolio-website-v2-main\app\resume\page.tsx
+// File: D:\Personal-Portfolio-\app\resume\page.tsx
 import * as entry from '../../../../app/resume/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,5 +1,9 @@
 import Image from "next/image";
 import BackgroundBeams from "./aceternity/BackgroundBeams";
+import { CardFooter } from "./ui/card";
+import { Button } from "./ui/button";
+import Link from "next/link";
+import { HardDriveDownload } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -18,6 +22,14 @@ export default function Hero() {
          Skilled at solving complex problems and crafting seamless user experiences. 
          Thrives in collaborative environments and is committed to enhancing both frontend and backend expertise.
         </p>
+        {/* <CardFooter className="flex justify-center items-center p-6 bg-primary rounded-b-xl text-base"> */}
+        <Button variant={"secondary"} asChild className="mt-4 w-fit">
+          <a href="/Sumit-Prajapati-Resume.pdf" download="Sumit-Prajapati-Resume.pdf" target="_blank" rel="noreferrer" className="flex justify-center items-center">
+            <HardDriveDownload className="w-4 h-4 mr-2" />
+            Download Resume
+          </a>
+        </Button>
+      {/* </CardFooter> */}
       </div>
       <div className="relative flex flex-col flex-1 justify-center items-center">
         {/* <div className="z-10">

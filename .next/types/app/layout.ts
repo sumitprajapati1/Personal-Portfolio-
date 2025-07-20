@@ -1,4 +1,4 @@
-// File: C:\Users\LENOVO\Desktop\portfolio-website-v2-main\app\layout.tsx
+// File: D:\Personal-Portfolio-\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

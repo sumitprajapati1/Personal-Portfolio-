@@ -8,7 +8,7 @@ import { HardDriveDownload } from "lucide-react";
 export default function Hero() {
   return (
     <div className="container mx-auto flex flex-col md:grid md:grid-cols-2 md:justify-center md:items-center min-h-[80vh] gap-16 antialiased">
-      <div className="relative flex flex-col">
+      <div className="relative flex flex-col z-10">
         <h1 className="text-4xl lg:text-5xl font-bold tracking-tight text-primary overflow-hidden inline-flex flex-col h-[calc(theme(fontSize.4xl)*theme(lineHeight.snug))] md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.none))] lg:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))]">
           <ul className="block text-left leading-tight [&_li]:block animate-text-slide-3">
             <li>Software engineer</li>
@@ -22,14 +22,20 @@ export default function Hero() {
          Skilled at solving complex problems and crafting seamless user experiences. 
          Thrives in collaborative environments and is committed to enhancing both frontend and backend expertise.
         </p>
-        {/* <CardFooter className="flex justify-center items-center p-6 bg-primary rounded-b-xl text-base"> */}
-        <Button variant={"secondary"} asChild className="mt-4 w-fit">
-          <a href="/Sumit-Prajapati-Resume.pdf" download="Sumit-Prajapati-Resume.pdf" target="_blank" rel="noreferrer" className="flex justify-center items-center">
-            <HardDriveDownload className="w-4 h-4 mr-2" />
-            Download Resume
-          </a>
-        </Button>
-      {/* </CardFooter> */}
+        <div className="mt-4">
+          <Button asChild>
+            <Link
+              href="/Sumit-Prajapati-Resume.pdf"
+              download="Sumit-Prajapati-Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center"
+            >
+              <HardDriveDownload className="w-4 h-4 mr-2" />
+              Download Resume
+            </Link>
+          </Button>
+        </div>
       </div>
       <div className="relative flex flex-col flex-1 justify-center items-center">
         {/* <div className="z-10">

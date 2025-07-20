@@ -101,8 +101,12 @@ const experiences: Experience[] = [
     title: "Web Developer Intern",
     company: "Pulpit Mobility",
     period: "Jan 2024 - Apr 2024 ",
-    description:
-      "Diagnosed and resolved critical bugs on pulpitmobility.com significantly improving site reliability and user engagement. Introduced and improved UI components to enhance user interaction and create a more engaging experience. Created pulpitinfotech.com using HTML, CSS, and Javascript to effectively present the company's technological services. Developed vishvgroup.com, a staffing platform aimed at optimizing the recruitment process with modern web solutions.",
+    description: [
+      "Diagnosed and resolved critical bugs on pulpitmobility.com significantly improving site reliability and user engagement.",
+      "Introduced and improved UI components to enhance user interaction and create a more engaging experience.",
+      "Created pulpitinfotech.com using HTML, CSS, and Javascript to effectively present the company's technological services.",
+      "Developed vishvgroup.com, a staffing platform aimed at optimizing the recruitment process with modern web solutions."
+    ],
     skills: [
       "HTML",
       "CSS",
